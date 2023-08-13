@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import { useState } from "react";
 import { useParams, useNavigate } from "react-router-dom";
 import { Link } from "react-router-dom";
 import {
@@ -8,7 +8,6 @@ import {
   Image,
   ListGroup,
   Card,
-  ListGroupItem,
   Button,
 } from "react-bootstrap";
 import { useDispatch } from "react-redux";
